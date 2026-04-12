@@ -153,4 +153,34 @@ gap: 8px;
 .subscribe img{
     width: 18px;
     height: 18px;
+   
+}
+.listen button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.subscribe button{
+    display: flex;           /* align icon + text */
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;                /* space between icon and text */
+
+    width: 147px;
+    height: 44px;
+
+    padding: 12px 20px;
+
+    color: #00FF88;
+    background: transparent;
+
+    border: 2px solid #00FF88;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
 }
