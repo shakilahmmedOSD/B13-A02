@@ -7,7 +7,7 @@
 img {
     max-width: 100%;
 }
-.container{
+.containerr{
  max-width: 1600px; 
  margin: auto;  
 }
@@ -83,9 +83,10 @@ nav > div> h1> span {
     padding: 120px 0;
     text-align: center;
     color: white;
+    margin-bottom: 50px;
 }
 .hero-section {
-    position: absolute; 
+    position: relative; 
 }
 .hero-images img:first-child{
     /* width: 100%; */
@@ -183,4 +184,66 @@ gap: 8px;
     font-weight: 600;
 
     cursor: pointer;
+}
+/* about podcast section */
+/* about section */
+.about-podcast{
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 120px;
+}
+
+/* title */
+.about-podcast h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* paragraph */
+.about-text{
+    max-width: 700px;
+    margin: 0 auto 80px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #cfcfcf;
+}
+
+/* divider line */
+.about-podcast hr{
+    border: none;
+    height: 1px;
+    background: #3a2a5a;
+    margin: 40px 0;
+}
+
+/* stats container */
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+/* single stat */
+.stat{
+    flex: 1;
+    min-width: 150px;
+}
+
+/* number */
+.stat h3{
+    color: #00FF88;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+/* label */
+.stat p{
+    font-size: 12px;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
