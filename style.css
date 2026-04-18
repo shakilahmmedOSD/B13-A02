@@ -312,3 +312,26 @@ margin: 0 auto;
     grid-row: span 1;
     grid-column: span 2;
 }
+.Featured div span img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+.Featured div span {
+    display: flex;
+    gap: 6px;
+}
+.Featured div span span {
+    width: 51px;
+    height: 24px;
+    color: #00FF88;
+    padding: 2px;
+}
+.Featured div p {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
